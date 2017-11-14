@@ -52,6 +52,7 @@ $mod_strings = array (
 	'LNK_ROLES' => 'Roles',
 	'LBL_NAME' => 'Name: ',
 	'LBL_DESCRIPTION' => 'Description: ',
+    'LBL_ACCSS_LVL' => 'Access level: ',
 	'LBL_ALLOWED_MODULES' => 'Allowed Modules: ',
 	'LBL_DISALLOWED_MODULES' => 'Disallowed Modules: ',
 	'LBL_ASSIGN_MODULES' => 'Edit Modules: ',

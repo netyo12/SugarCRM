@@ -76,8 +76,8 @@ function set_focus(){
 </td><td>&nbsp;</td><td>&nbsp;</td>
 </tr>
 <tr>
-<td scope="row" align='right'>{$MOD.LBL_DESCRIPTION}:</td>
-<td ><textarea name='description' cols="80" rows="8">{$ROLE.description}</textarea></td>
+<td scope="row" align='right'>{$MOD.LBL_ACCSS_LVL}:</td>
+<td ><textarea name='access_level' cols="80" rows="8">{$ROLE.access_level}</textarea></td>
 </tr>
 </table>
 

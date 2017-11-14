@@ -177,6 +177,6 @@ $listViewDefs['Contacts'] = array(
     'DATE_ENTERED' => array(
         'width' => '10', 
         'label' => 'LBL_DATE_ENTERED',
-		'default' => true)       
+		'default' => true),
 );
 ?>

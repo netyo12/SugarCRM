@@ -51,6 +51,7 @@ class ACLRole extends SugarBean{
                                 );
 
     var $created_by;
+    public $access_level;
 
     public function __construct(){
         parent::__construct();
@@ -275,10 +276,10 @@ function mark_relationships_deleted($id){
  *  toArray()
     * returns this role as an array
     *
-    * @return array of fields with id, name, description
+    * @return array of fields with id, name, access_level
     */
     function toArray($dbOnly = false, $stringOnly = false, $upperKeys=false){
-        $array_fields = array('id', 'name', 'description');
+        $array_fields = array('id', 'name', 'access_level');
         $arr = array();
         foreach($array_fields as $field){
             if(isset($this->$field)){

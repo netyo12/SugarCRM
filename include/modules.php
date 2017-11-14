@@ -55,6 +55,7 @@ $moduleList[] = 'Leads';
 $moduleList[] = 'Contacts';
 $moduleList[] = 'Accounts';
 $moduleList[] = 'Opportunities';
+$moduleList[] = 'Users';
 
 $moduleList[] = 'Emails';
 $moduleList[] = 'Campaigns';
@@ -215,7 +216,7 @@ $modInvisList = array('Administration', 'Currencies', 'CustomFields', 'Connector
     'Help', 'Import', 'MySettings', 'EditCustomFields', 'FieldsMetaData',
     'UpgradeWizard', 'Trackers', 'Connectors', 'Employees', 'Calendar',
     'Releases', 'Sync',
-    'Users', 'Versions', 'LabelEditor', 'Roles', 'EmailMarketing', 'OptimisticLock', 'TeamMemberships', 'TeamSets', 'TeamSetModule', 'Audit', 'MailMerge', 'MergeRecords', 'EmailAddresses', 'EmailText',
+    'Versions', 'LabelEditor', 'Roles', 'EmailMarketing', 'OptimisticLock', 'TeamMemberships', 'TeamSets', 'TeamSetModule', 'Audit', 'MailMerge', 'MergeRecords', 'EmailAddresses', 'EmailText',
     'Schedulers', 'Schedulers_jobs', /*'Queues', 'EmailTemplates',*/
     'CampaignTrackers', 'CampaignLog', 'EmailMan', 'Prospects', 'ProspectLists',
     'Groups','InboundEmail',

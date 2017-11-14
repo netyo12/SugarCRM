@@ -56,7 +56,7 @@
 	<tr height="20">
 	<td scope="col" width="1%" >{$CHECKALL}&nbsp;</td>
 		<td scope="col" width="20%"  nowrap><slot>{$MOD.LBL_NAME}</slot></td>
-		<td scope="col" width="10%"  nowrap><slot>{$MOD.LBL_DESCRIPTION}</slot></td>
+		<td scope="col" width="10%"  nowrap><slot>{$MOD.LBL_ACCSS_LVL}</slot></td>
 	  </tr>
 
 {foreach from=$ROLES item="ROLE"}
@@ -64,7 +64,7 @@
 <tr height="20" >
     			<td>{$PREROW}&nbsp;</td>
     			<td valign=TOP  ><slot><a href="#" onclick="send_back('Users','{$ROLE.id}');">{$ROLE.name}</a></slot></td>
-    			<td valign=TOP  ><slot>{$ROLE.description}</slot></td>
+    			<td valign=TOP  ><slot>{$ROLE.access_level}</slot></td>
 
 </tr>
 {foreachelse}

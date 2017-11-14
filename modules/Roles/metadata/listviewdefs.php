@@ -47,8 +47,8 @@ $listViewDefs['Roles'] = array(
         'label' => 'LBL_NAME', 
         'link' => true,
         'default' => true),
-    'DESCRIPTION' => array(
-        'width' => '80', 
-        'label' => 'LBL_DESCRIPTION', 
+    'ACCESS LEVEL' => array(
+        'width' => '80',
+        'label' => 'LBL_ACCSS_LVL',
         'default' => true),
 );

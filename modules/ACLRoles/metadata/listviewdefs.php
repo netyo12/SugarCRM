@@ -47,8 +47,9 @@ $listViewDefs['ACLRoles'] = array(
         'label' => 'LBL_NAME', 
         'link' => true,
         'default' => true),
-    'DESCRIPTION' => array(
+    'ACCESS_LEVEL' => array(
         'width' => '80', 
-        'label' => 'LBL_DESCRIPTION', 
-        'default' => true),       
+        'label' => 'LBL_ACCSS_LVL',
+        'default' => true),
+
 );

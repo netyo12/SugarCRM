@@ -54,10 +54,10 @@ $subpanel_layout = array(
 		 	'vname' => 'LBL_NAME',
 			'width' => '25%',
 		),
-		'description'=>array(
-		 	'vname' => 'LBL_DESCRIPTION',
+		'access_level'=>array(
+		 	'vname' => 'LBL_ACCSS_LVL',
 			'width' => '70%',
-			'sortable'=>false,
+			'sortable'=>true,
 		),
 /*		
 		'edit_button'=>array(

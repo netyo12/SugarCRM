@@ -51,6 +51,7 @@ $sugar_smarty->assign('ISDUPLICATE', '');
 $duplicateString='';
 //mass localization
 /*foreach($modInvisList as $modinvisname){
+/*foreach($modInvisList as $modinvisname){
 	$app_list_strings['moduleList'][$modinvisname] = $modinvisname;
 }*/
 $sugar_smarty->assign('APP_LIST', $app_list_strings);

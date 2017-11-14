@@ -62,6 +62,7 @@ class Role extends SugarBean {
 	var $created_by;
 	var $name;
 	var $description;
+	var $access_level;
 	var $modules;
 	var $disable_row_level_security = true;
 

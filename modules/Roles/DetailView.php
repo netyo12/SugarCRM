@@ -89,7 +89,7 @@ $xtpl->assign("RETURN_ACTION", "DetailView");
 $xtpl->assign("ACTION", "EditView");
 
 $xtpl->assign("NAME", $focus->name);
-$xtpl->assign("DESCRIPTION", nl2br(url2html($focus->description)));
+$xtpl->assign("ACCESS_LEVEL", nl2br(url2html($focus->access_level)));
 
 $detailView->processListNavigation($xtpl, "ROLE", $offset);
 

@@ -86,7 +86,7 @@ $xtpl->assign("PRINT_URL", "index.php?".$GLOBALS['request_string']);
 $xtpl->assign("JAVASCRIPT", get_set_focus_js() . get_chooser_js() . get_validate_record_js());
 $xtpl->assign("ID", $focus->id);
 $xtpl->assign("NAME", $focus->name);
-$xtpl->assign("DESCRIPTION", $focus->description);
+$xtpl->assign("ACCESS_LEVEL", $focus->access_level);
 
 require_once("include/templates/TemplateGroupChooser.php");
 require_once("modules/MySettings/TabController.php");

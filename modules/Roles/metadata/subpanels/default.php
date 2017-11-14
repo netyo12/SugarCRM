@@ -55,8 +55,8 @@ $subpanel_layout = array(
 			'widget_class' => 'SubPanelDetailViewLink',
 			'width' => '9999%',
 		),
-		'description'=>array(
-		 	'vname' => 'LBL_DESCRIPTION',
+		'access_level'=>array(
+		 	'vname' => 'LBL_ACCSS_LVL',
 			'width' => '9999%',
 		),
 	),

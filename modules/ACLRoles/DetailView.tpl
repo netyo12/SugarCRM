@@ -84,7 +84,7 @@ EOD
 <td valign='top' width='15%' align='right'><b>{$MOD.LBL_NAME}:</b></td><td width='85%' colspan='3'>{$ROLE.name}</td>
 </tr
 ><TR>
-<td valign='top'  width='15%' align='right'><b>{$MOD.LBL_DESCRIPTION}:</b></td><td colspan='3' valign='top'  width='85%' align='left'>{$ROLE.description | nl2br}</td>
+<td valign='top'  width='15%' align='right'><b>{$MOD.LBL_ACCSS_LVL}:</b></td><td colspan='3' valign='top'  width='85%' align='left'>{$ROLE.access_level | nl2br}</td>
 </tr></table>
 </p>
 		<p>

@@ -1,0 +1,27 @@
+<?php
+// created: 2017-11-13 14:17:22
+$mod_strings = array (
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Дата создания',
+  'LBL_DATE_MODIFIED' => 'Дата изменения',
+  'LBL_MODIFIED' => 'Изменено',
+  'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
+  'LBL_CREATED' => 'Создано',
+  'LBL_DESCRIPTION' => 'Описание',
+  'LBL_DELETED' => 'Удалён',
+  'LBL_NAME' => 'Условие',
+  'LBL_CREATED_USER' => 'Создано',
+  'LBL_MODIFIED_USER' => 'Изменено',
+  'LBL_LIST_NAME' => 'Название',
+  'LBL_EDIT_BUTTON' => 'Править',
+  'LBL_REMOVE' => 'Удалить',
+  'LBL_MODULE_NAME' => 'Условия',
+  'LBL_MODULE_TITLE' => 'Условия',
+  'LBL_MODULE_PATH' => 'Модуль',
+  'LBL_FIELD' => 'Поле',
+  'LBL_OPERATOR' => 'Оператор сравнения',
+  'LBL_VALUE_TYPE' => 'Тип',
+  'LBL_VALUE' => 'Значение',
+  'LBL_ORDER' => 'Сортировка',
+  'LBL_AOW_WORKFLOW_ID' => 'Идентификатор рабочего процесса',
+);

@@ -45,7 +45,7 @@ $role = new ACLRole();
 if(isset($_REQUEST['record']))$role->id = $_POST['record'];
 if(!empty($_REQUEST['name'])){
 	$role->name = $_POST['name'];
-	$role->description = $_POST['description'];
+	$role->access_level = $_POST['access_level'];
 	$role->save();
 	//if duplicate
 	if(isset($_REQUEST['isduplicate']) && !empty($_REQUEST['isduplicate'])){

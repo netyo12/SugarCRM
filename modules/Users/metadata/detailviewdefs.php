@@ -76,7 +76,7 @@ $viewdefs['Users']['DetailView'] = array (
                     'LBL_EMPLOYEE_INFORMATION' =>
                         array (
                             'newTab' => false,
-                            'panelDefault' => 'collapsed',
+                            'panelDefault' => 'expanded',
                         ),
                 ),
         ),
@@ -112,10 +112,6 @@ $viewdefs['Users']['DetailView'] = array (
                                     'customCode' => '{$USER_TYPE_READONLY}',
                                 ),
                         ),
-                    2 =>
-                        array (
-                            0 => 'photo',
-                        ),
                 ),
             'LBL_EMPLOYEE_INFORMATION' =>
                 array (
@@ -131,44 +127,15 @@ $viewdefs['Users']['DetailView'] = array (
                         ),
                     2 =>
                         array (
-                            0 => 'department',
+                            0 => 'reports_to_name',
                             1 => 'phone_mobile',
                         ),
                     3 =>
                         array (
-                            0 => 'reports_to_name',
-                            1 => 'phone_other',
-                        ),
-                    4 =>
-                        array (
-                            0 => '',
-                            1 => 'phone_fax',
-                        ),
-                    5 =>
-                        array (
-                            0 => '',
+                            0 => 'date_entered',
                             1 => 'phone_home',
                         ),
-                    6 =>
-                        array (
-                            0 => 'messenger_type',
-                            1 => 'messenger_id',
-                        ),
-                    7 =>
-                        array (
-                            0 => 'address_street',
-                            1 => 'address_city',
-                        ),
-                    8 =>
-                        array (
-                            0 => 'address_state',
-                            1 => 'address_postalcode',
-                        ),
-                    9 =>
-                        array (
-                            0 => 'address_country',
-                        ),
-                    10 =>
+                    4 =>
                         array (
                             0 => 'description',
                         ),

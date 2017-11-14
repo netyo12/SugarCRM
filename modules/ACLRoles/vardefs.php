@@ -102,12 +102,12 @@ $dictionary['ACLRole'] = array('table' => 'acl_roles', 'comment' => 'ACL Role de
                 'len' => 150,
                 'comment' => 'The role name'
             ),
-        'description' =>
+        'access_level' =>
             array(
-                'name' => 'description',
-                'vname' => 'LBL_DESCRIPTION',
-                'type' => 'text',
-                'comment' => 'The role description'
+                'name' => 'access_level',
+                'vname' => 'LBL_ACCSS_LVL',
+                'type' => 'int',
+                'comment' => 'The role access level'
             ),
         'deleted' =>
             array(

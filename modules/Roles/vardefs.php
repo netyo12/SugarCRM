@@ -96,11 +96,11 @@ $dictionary['Role'] = array('table' => 'roles'
     'len' => 150,
     'importable' => 'required',
   ),
-   'description' =>
+   'access_level' =>
   array (
-    'name' => 'description',
-    'vname' => 'LBL_DESCRIPTION',
-    'type' => 'text',
+    'name' => 'access_level',
+    'vname' => 'LBL_ACCSS_LVL',
+    'type' => 'int',
   ),
   'modules' =>
   array (

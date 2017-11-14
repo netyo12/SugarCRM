@@ -48,13 +48,13 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $fields_array['Role'] = array ('column_fields' => array (
 		'id', 'date_entered', 'date_modified',
 		'modified_user_id', 'created_by', 'name',
-		'description',
+		'access_level',
 	),
         'list_fields' =>  array (
-		'id','name','description',
+		'id','name','access_level',
 	),
     'required_fields' =>   array (
-		'name'=>1,
+		'name'=>1, 'access_level'=>1,
 	),
 );
 ?>

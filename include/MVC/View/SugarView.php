@@ -212,7 +212,6 @@ class SugarView
             if (SugarThemeRegistry::current()->name == 'Classic' || SugarThemeRegistry::current()->classic) {
                 $ajax_ret['moduleList'] = $this->displayHeader(true);
             }
-
             if (empty($this->responseTime)) {
                 $this->_calculateFooterMetrics();
             }

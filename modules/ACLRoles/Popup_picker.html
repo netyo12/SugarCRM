@@ -81,13 +81,13 @@ xxxxx
 <tr height="20" >
 <td scope="col"  NOWRAP>{CHECKALL}</td>
 <td scope="col" width="50%"  nowrap="nowrap"><a href="{ORDER_BY}name" class="listViewThLinkS1">{MOD.LBL_NAME}{arrow_start}{name_arrow}{arrow_end}</a></td>
-<td scope="col" width="50%"  nowrap="nowrap"><a href="{ORDER_BY}description" class="listViewThLinkS1" >{MOD.LBL_DESCRIPTION}{arrow_start}{description_arrow}{arrow_end}</a></td>
+<td scope="col" width="50%"  nowrap="nowrap"><a href="{ORDER_BY}access_level" class="listViewThLinkS1" >{MOD.LBL_ACCSS_LVL}{arrow_start}{access_level_arrow}{arrow_end}</a></td>
 </tr>
 <!-- BEGIN: row -->
 <tr height="20" class="{ROW_COLOR}S1">
 <td valign='top'>{PREROW}</td>	
 <td scope='row' valign="top"><a href="#" onclick="send_back('ACLRoles','{ROLE.ID}');" >{ROLE.NAME}</a></td>
-<td valign="top">{ROLE.DESCRIPTION}</td>
+<td valign="top">{ROLE.ACCESS_LEVEL}</td>
 </tr>
 
 <!-- END: row -->
